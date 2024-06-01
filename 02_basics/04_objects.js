@@ -46,11 +46,21 @@ const users=[
         name:"Archit"
     }
 ]
-users[1].name
-console.log(tinderUser)
-console.log(Object.keys(tinderUser))
-console.log(Object.values(tinderUser))
-console.log(Object.entries(tinderUser))
+// users[1].name
+// console.log(tinderUser)
+// console.log(Object.keys(tinderUser))
+// console.log(Object.values(tinderUser))
+// console.log(Object.entries(tinderUser))
 
-console.log(tinderUser.hasOwnProperty("isLoggedIn")) // checks for property and returns boolean
+// console.log(tinderUser.hasOwnProperty("isLoggedIn")) // checks for property and returns boolean
 
+const coursename = {
+    courseName: "Js in Hindi",
+    price: "999",
+    courseInstructor: "Archit"
+}
+
+//coursename.courseInstructor
+const {courseInstructor: instructor}=coursename
+
+console.log(instructor) // destructuring objects
