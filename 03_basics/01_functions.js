@@ -40,5 +40,31 @@ function loginUserMessage(username)// if you want a default value just write it,
     }
     return `${username} just logged in`
 }
-console.log(loginUserMessage())
-console.log(loginUserMessage("archit"))
+// console.log(loginUserMessage())
+// console.log(loginUserMessage("archit"))
+
+function calculateCartPrice(...num3)  // the ... operator is called spread and rest depends on the usecase what its called
+{
+    return num3
+}
+// console.log(calculateCartPrice(100,200,300))
+
+const user={
+    username: "Archit",
+    price: 199
+}
+
+// function handleObject(anyObject){
+//     console.log(`Username is ${anyObject.username} and price is ${anyObject.price}`)
+// }
+// // handleObject(user)
+// handleObject({
+//     username: "sam",
+//     price: 499
+// })
+
+const myNewArray=[200,100,400]
+function returnSecondValue(getArray){
+    return getArray[0]
+}
+console.log(returnSecondValue(myNewArray))
