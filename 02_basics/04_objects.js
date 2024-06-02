@@ -64,3 +64,18 @@ const coursename = {
 const {courseInstructor: instructor}=coursename
 
 console.log(instructor) // destructuring objects
+
+// const navbar=({company}) =>{
+
+// }
+// navbar(company="Archit")  // this is how you basically do destructuring in react
+
+// {
+//     "name": "Archit",
+//     "courseName": "Js-Hindi",
+//     "price": "free"
+// }// json
+// [
+//     {},
+//     {}
+// ]  // json can also be in array format
